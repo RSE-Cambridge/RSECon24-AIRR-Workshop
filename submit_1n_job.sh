@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sbatch \
+salloc \
     --partition=pvc \
     --account=training-dawn-gpu \
     --nodes=1 \
