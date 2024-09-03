@@ -2,7 +2,7 @@
 
 salloc \
     --partition=pvc \
-    --account=support-gpu \
+    --account=training-dawn-gpu \
     --nodes=4 \
     --gres=gpu:4 \
     --time=00:20:00 \
