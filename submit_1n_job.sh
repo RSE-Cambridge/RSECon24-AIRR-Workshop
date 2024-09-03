@@ -7,5 +7,4 @@ salloc \
     --gres=gpu:4 \
     --time=00:20:00 \
     --exclusive \
-    --output ~/show_gpu.out \
     "$@"   
