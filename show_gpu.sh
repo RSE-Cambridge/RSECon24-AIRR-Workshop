@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#SBATCH --partition=pvc
+#SBATCH --account=training-dawn-gpu
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:4
+#SBATCH --time=00:20:00
+#SBATCH --exclusive
+#SBATCH --output ~/show_gpu.out 
+
 # Setup environment for Intel PyTorch
 module load intelpython-conda
 conda activate pytorch-gpu
