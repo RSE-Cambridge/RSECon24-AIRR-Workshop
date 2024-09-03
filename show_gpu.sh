@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:20:00
 #SBATCH --exclusive
-#SBATCH --output ~/show_gpu.out 
+#SBATCH --output show_gpu.out
 
 # Setup environment for Intel PyTorch
 module load intelpython-conda
