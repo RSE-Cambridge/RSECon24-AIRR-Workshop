@@ -28,3 +28,5 @@ export ZERO_STAGE=1 # set to stage 1 only to avoid communication overhead
 export TP=8 # number of tensor parallelism shards
 export GRAD_ACC_STEPS=8
 bash ../intel-extension-for-deepspeed/examples/run20b.sh
+
+echo "JOB COMPLETE"

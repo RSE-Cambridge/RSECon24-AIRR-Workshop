@@ -24,3 +24,4 @@ source generate_hostfile_cambridge.sh
 cd ${LLM_TRAINING_DIR}/Megatron-DeepSpeed
 bash ../intel-extension-for-deepspeed/examples/run3.6b.sh
 
+echo "JOB COMPLETE"
